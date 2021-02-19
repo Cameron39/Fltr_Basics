@@ -8,6 +8,7 @@ void main() {
           title: Text("I am Rich"),
           backgroundColor: Colors.orange[800],
         ),
+        backgroundColor: Colors.grey[850],
       ),
     ),
   );
