@@ -9,9 +9,11 @@ void main() {
           title: Text("I am Rich"),
           backgroundColor: Colors.orange[800],
         ),
-        body: Image(
-          image: NetworkImage(
-              'https://s7d2.scene7.com/is/image/TWCNews/snowflake-formatted-snow-03222020jpg'),
+        body: Center(
+          child: Image(
+            image: NetworkImage(
+                'https://s7d2.scene7.com/is/image/TWCNews/snowflake-formatted-snow-03222020jpg'),
+          ),
         ),
       ),
     ),
